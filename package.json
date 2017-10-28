@@ -1,0 +1,22 @@
+{
+  "name": "repbase",
+  "version": "0.0.1",
+  "description": "repbase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DhyanaChina/Repbase.git"
+  },
+  "keywords": [
+    "repbase"
+  ],
+  "author": "DhyanaChina (https://github.com/DhyanaChina/Repbase)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DhyanaChina/Repbase/issues"
+  },
+  "homepage": "https://github.com/DhyanaChina/Repbase#readme"
+}
