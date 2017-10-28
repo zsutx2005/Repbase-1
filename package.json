@@ -23,7 +23,7 @@
   "homepage": "https://github.com/DhyanaChina/Repbase#readme",
   "devDependencies": {
     "@types/node": "^8.0.47",
-    "tslint": "^4.10.0",
+    "tslint": "^5.8.0",
     "typescript": "^2.5.3"
   },
   "dependencies": {
