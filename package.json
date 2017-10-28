@@ -4,7 +4,9 @@
   "description": "repbase",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run build -- -w",
+    "build": "rm -rf ./dist && tsc --sourceMap false",
+    "lint": "tslint -p '.'"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,14 @@
   "bugs": {
     "url": "https://github.com/DhyanaChina/Repbase/issues"
   },
-  "homepage": "https://github.com/DhyanaChina/Repbase#readme"
+  "homepage": "https://github.com/DhyanaChina/Repbase#readme",
+  "devDependencies": {
+    "@types/node": "^8.0.47",
+    "tslint": "^4.10.0",
+    "typescript": "^2.5.3"
+  },
+  "dependencies": {
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5"
+  }
 }
