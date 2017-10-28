@@ -5,7 +5,7 @@ A tool for storing data in GitHub.
 
 - run anywhere (server / front-end / application / electron...)
 - easy. no configuration, no server
-- free.
+- free
 
 ### Usage
 1. install:
@@ -97,6 +97,5 @@ Notice:
 - All the data is stored in GitHub, and they're all public.
 - Most of the actions will initiate network requests.
 - This project is suitable for students, individuals, or blogs, not suitable for professional or enterprise projects.
--
 
 
