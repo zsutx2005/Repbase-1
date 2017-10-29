@@ -9,9 +9,8 @@ branches:
     - master
 
 install:
-  - npm i -g typescript tslint
+  - npm i -g typescript webpack
   - npm i
 
 script:
-  - npm run lint
   - npm run build
