@@ -1,9 +1,7 @@
 ## PR Checklist
 
-- [ ] Fix linting errors
+- [ ] Fix tsLint errors
 - [ ] Label has been added
-- [ ] Follow the code style of this [Link]()
-
 
 ## Change information
 
