@@ -18,6 +18,6 @@ if (!target) return log.fail('exit. module is required.\nyou can try [npm run ex
   log.clear()
   log.succeed(`running, module: ${target}`)
   
-  const { stdout } = await exec(`node ./dist/examples/index.js`)
+  const { stdout } = await exec(`node ./dist/examples/${target}.js`)
   console.log(stdout)
 })()
