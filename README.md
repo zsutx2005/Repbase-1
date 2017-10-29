@@ -93,9 +93,16 @@ packer.save()
 
 ```
 
-Notice:
+### Notice:
 - All the data is stored in GitHub, and they're all public.
 - Most of the actions will initiate network requests.
 - This project is suitable for students, individuals, or blogs, not suitable for professional or enterprise projects.
+
+### Contribution
+> Please read the link before you contribute: [Contribution Guide](https://github.com/DhyanaChina/Repbase/blob/master/.github/CONTRIBUTING.md).
+
+- warch: `npm start`
+- build: `npm run build`
+- run example scripts: `npm run ex --module={exampleModule}`
 
 
